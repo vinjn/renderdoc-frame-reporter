@@ -1,0 +1,1816 @@
+* C:\Users\ZJ_PC\AppData\Local\Temp\RenderDoc\BasicHLSL11_2017.06.03_14.52.43_frame2631.rdc
+* API: D3D11
+# Draws
+## ClearRenderTargetView(0.0980, 0.0980, 0.4392, 1.0000)
+
+```json
+ID3D11DeviceContext::ClearRenderTargetView
+{
+    context: ResID_67
+    View: ResID_150
+    ViewDesc = D3D11_RENDER_TARGET_VIEW_DESC1
+    {
+    Format: DXGI_FORMAT_R8G8B8A8_UNORM_SRGB
+    ViewDimension: D3D11_RTV_DIMENSION_TEXTURE2D
+    Texture2D.MipSlice: 0
+    Texture2D.PlaneSlice: 0
+    }
+    resID: ResID_69
+    ColorRGBA[0] = 0.0980
+    ColorRGBA[1] = 0.0980
+    ColorRGBA[2] = 0.4392
+    ColorRGBA[3] = 1.0000
+
+```
+## ClearDepthStencilView(1.0000, 00000000)
+
+```json
+ID3D11DeviceContext::ClearDepthStencilView
+{
+    context: ResID_67
+    View: ResID_152
+    ClearFlags: 1
+    Depth: 1.0000
+    Stencil: 00000000
+    ViewDesc = D3D11_DEPTH_STENCIL_VIEW_DESC
+    {
+    Format: DXGI_FORMAT_D24_UNORM_S8_UINT
+    Flags: 0
+    ViewDimension: D3D11_DSV_DIMENSION_TEXTURE2D
+    Texture2D.MipSlice: 0
+    }
+    resID: ResID_151
+
+```
+## DrawIndexed(20523)
+|C0|C1|C2|C3|C4|C5|C6|C7|Z|
+|-|-|-|-|-|-|-|-|-|
+|[ResID_69](#ResID_69)|null|null|null|null|null|null|null|[ResID_151](#ResID_151)|
+
+```json
+ID3D11DeviceContext::Unmap
+{
+    context: ResID_67
+    Resource: ResID_149
+    Subresource: 0
+    MapType: D3D11_MAP_WRITE_DISCARD
+    MapFlags: 0
+    DiffStart: 0
+    DiffEnd: 16
+    MapData: RawBuffer    16:< 0xbf13cd3a 0x3f13cd3a 0xbf13cd3a 0x3dcccccd    >
+}
+
+```
+
+```json
+ID3D11DeviceContext::PSSetConstantBuffers
+{
+    context: ResID_67
+    StartSlot: 1
+    NumBuffers: 1
+    id: ResID_149
+}
+
+```
+
+```json
+ID3D11DeviceContext::IASetInputLayout
+{
+    context: ResID_67
+    InputLayout: ResID_141
+}
+
+```
+
+```json
+ID3D11DeviceContext::IASetVertexBuffers
+{
+    context: ResID_67
+    StartSlot: 0
+    NumBuffers: 1
+    Strides: 32
+    Offsets: 0
+    id: ResID_142
+}
+
+```
+
+```json
+ID3D11DeviceContext::IASetIndexBuffer
+{
+    context: ResID_67
+    Buffer: ResID_143
+    Format: DXGI_FORMAT_R32_UINT
+    Offset: 0
+}
+
+```
+
+```json
+ID3D11DeviceContext::VSSetShader
+{
+    context: ResID_67
+    Shader: ResID_139
+    NumClassInstances: 0
+}
+
+```
+
+```json
+ID3D11DeviceContext::PSSetShader
+{
+    context: ResID_67
+    Shader: ResID_140
+    NumClassInstances: 0
+}
+
+```
+
+```json
+ID3D11DeviceContext::Unmap
+{
+    context: ResID_67
+    Resource: ResID_147
+    Subresource: 0
+    MapType: D3D11_MAP_WRITE_DISCARD
+    MapFlags: 0
+    DiffStart: 0
+    DiffEnd: 128
+    MapData: RawBuffer   128:< 0xbfe7c3b5 0x00000000 0x00000000 0x3eeee0fc ...>
+}
+
+```
+
+```json
+ID3D11DeviceContext::VSSetConstantBuffers
+{
+    context: ResID_67
+    StartSlot: 0
+    NumBuffers: 1
+    id: ResID_147
+}
+
+```
+
+```json
+ID3D11DeviceContext::Unmap
+{
+    context: ResID_67
+    Resource: ResID_148
+    Subresource: 0
+    MapType: D3D11_MAP_WRITE_DISCARD
+    MapFlags: 0
+    DiffStart: 0
+    DiffEnd: 16
+    MapData: RawBuffer    16:< 0x3f800000 0x3f800000 0x3f800000 0x3f800000    >
+}
+
+```
+
+```json
+ID3D11DeviceContext::PSSetConstantBuffers
+{
+    context: ResID_67
+    StartSlot: 0
+    NumBuffers: 1
+    id: ResID_148
+}
+
+```
+
+```json
+ID3D11DeviceContext::PSSetSamplers
+{
+    context: ResID_67
+    StartSlot: 0
+    NumSamplers: 1
+    id: ResID_146
+}
+
+```
+
+```json
+ID3D11DeviceContext::IASetPrimitiveTopology
+{
+    context: ResID_67
+    Topology: TriangleList
+}
+
+```
+
+```json
+ID3D11DeviceContext::PSSetShaderResources
+{
+    context: ResID_67
+    StartSlot: 0
+    NumViews: 1
+    id: ResID_145
+}
+
+```
+
+```json
+ID3D11DeviceContext::DrawIndexed
+{
+    context: ResID_67
+    IndexCount: 20523
+    StartIndexLocation: 0
+    BaseVertexLocation: 0
+
+```
+## HUD / Stats
+### Draw(6)
+|C0|C1|C2|C3|C4|C5|C6|C7|Z|
+|-|-|-|-|-|-|-|-|-|
+|[ResID_69](#ResID_69)|null|null|null|null|null|null|null|[ResID_151](#ResID_151)|
+
+```json
+ID3D11DeviceContext::PSSetShaderResources
+{
+    context: ResID_67
+    StartSlot: 0
+    NumViews: 1
+    id: ResID_134
+}
+
+```
+
+```json
+ID3D11DeviceContext::VSSetShader
+{
+    context: ResID_67
+    Shader: ResID_128
+    NumClassInstances: 0
+}
+
+```
+
+```json
+ID3D11DeviceContext::HSSetShader
+{
+    context: ResID_67
+    Shader: ResID_0
+    NumClassInstances: 0
+}
+
+```
+
+```json
+ID3D11DeviceContext::DSSetShader
+{
+    context: ResID_67
+    Shader: ResID_0
+    NumClassInstances: 0
+}
+
+```
+
+```json
+ID3D11DeviceContext::GSSetShader
+{
+    context: ResID_67
+    Shader: ResID_0
+    NumClassInstances: 0
+}
+
+```
+
+```json
+ID3D11DeviceContext::PSSetShader
+{
+    context: ResID_67
+    Shader: ResID_129
+    NumClassInstances: 0
+}
+
+```
+
+```json
+ID3D11DeviceContext::OMSetDepthStencilState
+{
+    context: ResID_67
+    State: ResID_116
+    StencilRef: 0
+}
+
+```
+
+```json
+ID3D11DeviceContext::RSSetState
+{
+    context: ResID_67
+    id: ResID_68
+}
+
+```
+
+```json
+ID3D11DeviceContext::OMSetBlendState
+{
+    context: ResID_67
+    State: ResID_131
+    BlendFactor[0] = 0.0000
+    BlendFactor[1] = 0.0000
+    BlendFactor[2] = 0.0000
+    BlendFactor[3] = 0.0000
+    SampleMask: 4294967295
+}
+
+```
+
+```json
+ID3D11DeviceContext::PSSetSamplers
+{
+    context: ResID_67
+    StartSlot: 0
+    NumSamplers: 1
+    id: ResID_132
+}
+
+```
+
+```json
+ID3D11DeviceContext::Unmap
+{
+    context: ResID_67
+    Resource: ResID_153
+    Subresource: 0
+    MapType: D3D11_MAP_WRITE_DISCARD
+    MapFlags: 0
+    DiffStart: 0
+    DiffEnd: 216
+    MapData: RawBuffer   216:< 0x3f133334 0x3f777778 0x3f4ccccd 0x3f7ffff7 ...>
+}
+
+```
+
+```json
+ID3D11DeviceContext::IASetVertexBuffers
+{
+    context: ResID_67
+    StartSlot: 0
+    NumBuffers: 1
+    Strides: 36
+    Offsets: 0
+    id: ResID_153
+}
+
+```
+
+```json
+ID3D11DeviceContext::IASetInputLayout
+{
+    context: ResID_67
+    InputLayout: ResID_135
+}
+
+```
+
+```json
+ID3D11DeviceContext::IASetPrimitiveTopology
+{
+    context: ResID_67
+    Topology: TriangleList
+}
+
+```
+
+```json
+ID3D11DeviceContext::Draw
+{
+    context: ResID_67
+    VertexCount: 6
+    StartVertexLocation: 0
+
+```
+### Draw(108)
+|C0|C1|C2|C3|C4|C5|C6|C7|Z|
+|-|-|-|-|-|-|-|-|-|
+|[ResID_69](#ResID_69)|null|null|null|null|null|null|null|[ResID_151](#ResID_151)|
+
+```json
+ID3D11DeviceContext::Unmap
+{
+    context: ResID_67
+    Resource: ResID_157
+    Subresource: 0
+    MapType: D3D11_MAP_WRITE_DISCARD
+    MapFlags: 0
+    DiffStart: 0
+    DiffEnd: 14904
+    MapData: RawBuffer  14904:< 0x3f1e6667 0x3f769d04 0x3f000000 0x3f7ffff7 ...>
+}
+
+```
+
+```json
+ID3D11DeviceContext::PSSetShaderResources
+{
+    context: ResID_67
+    StartSlot: 0
+    NumViews: 1
+    id: ResID_138
+}
+
+```
+
+```json
+ID3D11DeviceContext::IASetVertexBuffers
+{
+    context: ResID_67
+    StartSlot: 0
+    NumBuffers: 1
+    Strides: 36
+    Offsets: 0
+    id: ResID_157
+}
+
+```
+
+```json
+ID3D11DeviceContext::IASetInputLayout
+{
+    context: ResID_67
+    InputLayout: ResID_135
+}
+
+```
+
+```json
+ID3D11DeviceContext::IASetPrimitiveTopology
+{
+    context: ResID_67
+    Topology: TriangleList
+}
+
+```
+
+```json
+ID3D11DeviceContext::Draw
+{
+    context: ResID_67
+    VertexCount: 108
+    StartVertexLocation: 0
+
+```
+### Draw(108)
+|C0|C1|C2|C3|C4|C5|C6|C7|Z|
+|-|-|-|-|-|-|-|-|-|
+|[ResID_69](#ResID_69)|null|null|null|null|null|null|null|[ResID_151](#ResID_151)|
+
+```json
+ID3D11DeviceContext::PSSetShaderResources
+{
+    context: ResID_67
+    StartSlot: 0
+    NumViews: 1
+    id: ResID_134
+}
+
+```
+
+```json
+ID3D11DeviceContext::Unmap
+{
+    context: ResID_67
+    Resource: ResID_157
+    Subresource: 0
+    MapType: D3D11_MAP_WRITE_DISCARD
+    MapFlags: 0
+    DiffStart: 0
+    DiffEnd: 14904
+    MapData: RawBuffer  14904:< 0x3f1e6667 0x3f769d04 0x3f000000 0x3f7ffff7 ...>
+}
+
+```
+
+```json
+ID3D11DeviceContext::PSSetShaderResources
+{
+    context: ResID_67
+    StartSlot: 0
+    NumViews: 1
+    id: ResID_138
+}
+
+```
+
+```json
+ID3D11DeviceContext::IASetVertexBuffers
+{
+    context: ResID_67
+    StartSlot: 0
+    NumBuffers: 1
+    Strides: 36
+    Offsets: 0
+    id: ResID_157
+}
+
+```
+
+```json
+ID3D11DeviceContext::IASetInputLayout
+{
+    context: ResID_67
+    InputLayout: ResID_135
+}
+
+```
+
+```json
+ID3D11DeviceContext::IASetPrimitiveTopology
+{
+    context: ResID_67
+    Topology: TriangleList
+}
+
+```
+
+```json
+ID3D11DeviceContext::Draw
+{
+    context: ResID_67
+    VertexCount: 108
+    StartVertexLocation: 0
+
+```
+### Draw(6)
+|C0|C1|C2|C3|C4|C5|C6|C7|Z|
+|-|-|-|-|-|-|-|-|-|
+|[ResID_69](#ResID_69)|null|null|null|null|null|null|null|[ResID_151](#ResID_151)|
+
+```json
+ID3D11DeviceContext::PSSetShaderResources
+{
+    context: ResID_67
+    StartSlot: 0
+    NumViews: 1
+    id: ResID_134
+}
+
+```
+
+```json
+ID3D11DeviceContext::Unmap
+{
+    context: ResID_67
+    Resource: ResID_153
+    Subresource: 0
+    MapType: D3D11_MAP_WRITE_DISCARD
+    MapFlags: 0
+    DiffStart: 0
+    DiffEnd: 216
+    MapData: RawBuffer   216:< 0x3f133334 0x3f6147ae 0x3f4ccccd 0x3f7ffff7 ...>
+}
+
+```
+
+```json
+ID3D11DeviceContext::IASetVertexBuffers
+{
+    context: ResID_67
+    StartSlot: 0
+    NumBuffers: 1
+    Strides: 36
+    Offsets: 0
+    id: ResID_153
+}
+
+```
+
+```json
+ID3D11DeviceContext::IASetInputLayout
+{
+    context: ResID_67
+    InputLayout: ResID_135
+}
+
+```
+
+```json
+ID3D11DeviceContext::IASetPrimitiveTopology
+{
+    context: ResID_67
+    Topology: TriangleList
+}
+
+```
+
+```json
+ID3D11DeviceContext::Draw
+{
+    context: ResID_67
+    VertexCount: 6
+    StartVertexLocation: 0
+
+```
+### Draw(108)
+|C0|C1|C2|C3|C4|C5|C6|C7|Z|
+|-|-|-|-|-|-|-|-|-|
+|[ResID_69](#ResID_69)|null|null|null|null|null|null|null|[ResID_151](#ResID_151)|
+
+```json
+ID3D11DeviceContext::Unmap
+{
+    context: ResID_67
+    Resource: ResID_157
+    Subresource: 0
+    MapType: D3D11_MAP_WRITE_DISCARD
+    MapFlags: 0
+    DiffStart: 0
+    DiffEnd: 14904
+    MapData: RawBuffer  14904:< 0x3f1e6667 0x3f606d3a 0x3f000000 0x3f7ffff7 ...>
+}
+
+```
+
+```json
+ID3D11DeviceContext::PSSetShaderResources
+{
+    context: ResID_67
+    StartSlot: 0
+    NumViews: 1
+    id: ResID_138
+}
+
+```
+
+```json
+ID3D11DeviceContext::IASetVertexBuffers
+{
+    context: ResID_67
+    StartSlot: 0
+    NumBuffers: 1
+    Strides: 36
+    Offsets: 0
+    id: ResID_157
+}
+
+```
+
+```json
+ID3D11DeviceContext::IASetInputLayout
+{
+    context: ResID_67
+    InputLayout: ResID_135
+}
+
+```
+
+```json
+ID3D11DeviceContext::IASetPrimitiveTopology
+{
+    context: ResID_67
+    Topology: TriangleList
+}
+
+```
+
+```json
+ID3D11DeviceContext::Draw
+{
+    context: ResID_67
+    VertexCount: 108
+    StartVertexLocation: 0
+
+```
+### Draw(108)
+|C0|C1|C2|C3|C4|C5|C6|C7|Z|
+|-|-|-|-|-|-|-|-|-|
+|[ResID_69](#ResID_69)|null|null|null|null|null|null|null|[ResID_151](#ResID_151)|
+
+```json
+ID3D11DeviceContext::PSSetShaderResources
+{
+    context: ResID_67
+    StartSlot: 0
+    NumViews: 1
+    id: ResID_134
+}
+
+```
+
+```json
+ID3D11DeviceContext::Unmap
+{
+    context: ResID_67
+    Resource: ResID_157
+    Subresource: 0
+    MapType: D3D11_MAP_WRITE_DISCARD
+    MapFlags: 0
+    DiffStart: 0
+    DiffEnd: 14904
+    MapData: RawBuffer  14904:< 0x3f1e6667 0x3f606d3a 0x3f000000 0x3f7ffff7 ...>
+}
+
+```
+
+```json
+ID3D11DeviceContext::PSSetShaderResources
+{
+    context: ResID_67
+    StartSlot: 0
+    NumViews: 1
+    id: ResID_138
+}
+
+```
+
+```json
+ID3D11DeviceContext::IASetVertexBuffers
+{
+    context: ResID_67
+    StartSlot: 0
+    NumBuffers: 1
+    Strides: 36
+    Offsets: 0
+    id: ResID_157
+}
+
+```
+
+```json
+ID3D11DeviceContext::IASetInputLayout
+{
+    context: ResID_67
+    InputLayout: ResID_135
+}
+
+```
+
+```json
+ID3D11DeviceContext::IASetPrimitiveTopology
+{
+    context: ResID_67
+    Topology: TriangleList
+}
+
+```
+
+```json
+ID3D11DeviceContext::Draw
+{
+    context: ResID_67
+    VertexCount: 108
+    StartVertexLocation: 0
+
+```
+### Draw(6)
+|C0|C1|C2|C3|C4|C5|C6|C7|Z|
+|-|-|-|-|-|-|-|-|-|
+|[ResID_69](#ResID_69)|null|null|null|null|null|null|null|[ResID_151](#ResID_151)|
+
+```json
+ID3D11DeviceContext::PSSetShaderResources
+{
+    context: ResID_67
+    StartSlot: 0
+    NumViews: 1
+    id: ResID_134
+}
+
+```
+
+```json
+ID3D11DeviceContext::Unmap
+{
+    context: ResID_67
+    Resource: ResID_153
+    Subresource: 0
+    MapType: D3D11_MAP_WRITE_DISCARD
+    MapFlags: 0
+    DiffStart: 0
+    DiffEnd: 216
+    MapData: RawBuffer   216:< 0x3f133334 0x3f4b17e4 0x3f4ccccd 0x3f7ffff7 ...>
+}
+
+```
+
+```json
+ID3D11DeviceContext::IASetVertexBuffers
+{
+    context: ResID_67
+    StartSlot: 0
+    NumBuffers: 1
+    Strides: 36
+    Offsets: 0
+    id: ResID_153
+}
+
+```
+
+```json
+ID3D11DeviceContext::IASetInputLayout
+{
+    context: ResID_67
+    InputLayout: ResID_135
+}
+
+```
+
+```json
+ID3D11DeviceContext::IASetPrimitiveTopology
+{
+    context: ResID_67
+    Topology: TriangleList
+}
+
+```
+
+```json
+ID3D11DeviceContext::Draw
+{
+    context: ResID_67
+    VertexCount: 6
+    StartVertexLocation: 0
+
+```
+### Draw(90)
+|C0|C1|C2|C3|C4|C5|C6|C7|Z|
+|-|-|-|-|-|-|-|-|-|
+|[ResID_69](#ResID_69)|null|null|null|null|null|null|null|[ResID_151](#ResID_151)|
+
+```json
+ID3D11DeviceContext::Unmap
+{
+    context: ResID_67
+    Resource: ResID_157
+    Subresource: 0
+    MapType: D3D11_MAP_WRITE_DISCARD
+    MapFlags: 0
+    DiffStart: 0
+    DiffEnd: 14904
+    MapData: RawBuffer  14904:< 0x3f25999a 0x3f4a3d71 0x3f000000 0x3f7ffff7 ...>
+}
+
+```
+
+```json
+ID3D11DeviceContext::PSSetShaderResources
+{
+    context: ResID_67
+    StartSlot: 0
+    NumViews: 1
+    id: ResID_138
+}
+
+```
+
+```json
+ID3D11DeviceContext::IASetVertexBuffers
+{
+    context: ResID_67
+    StartSlot: 0
+    NumBuffers: 1
+    Strides: 36
+    Offsets: 0
+    id: ResID_157
+}
+
+```
+
+```json
+ID3D11DeviceContext::IASetInputLayout
+{
+    context: ResID_67
+    InputLayout: ResID_135
+}
+
+```
+
+```json
+ID3D11DeviceContext::IASetPrimitiveTopology
+{
+    context: ResID_67
+    Topology: TriangleList
+}
+
+```
+
+```json
+ID3D11DeviceContext::Draw
+{
+    context: ResID_67
+    VertexCount: 90
+    StartVertexLocation: 0
+
+```
+### Draw(90)
+|C0|C1|C2|C3|C4|C5|C6|C7|Z|
+|-|-|-|-|-|-|-|-|-|
+|[ResID_69](#ResID_69)|null|null|null|null|null|null|null|[ResID_151](#ResID_151)|
+
+```json
+ID3D11DeviceContext::PSSetShaderResources
+{
+    context: ResID_67
+    StartSlot: 0
+    NumViews: 1
+    id: ResID_134
+}
+
+```
+
+```json
+ID3D11DeviceContext::Unmap
+{
+    context: ResID_67
+    Resource: ResID_157
+    Subresource: 0
+    MapType: D3D11_MAP_WRITE_DISCARD
+    MapFlags: 0
+    DiffStart: 0
+    DiffEnd: 14904
+    MapData: RawBuffer  14904:< 0x3f25999a 0x3f4a3d71 0x3f000000 0x3f7ffff7 ...>
+}
+
+```
+
+```json
+ID3D11DeviceContext::PSSetShaderResources
+{
+    context: ResID_67
+    StartSlot: 0
+    NumViews: 1
+    id: ResID_138
+}
+
+```
+
+```json
+ID3D11DeviceContext::IASetVertexBuffers
+{
+    context: ResID_67
+    StartSlot: 0
+    NumBuffers: 1
+    Strides: 36
+    Offsets: 0
+    id: ResID_157
+}
+
+```
+
+```json
+ID3D11DeviceContext::IASetInputLayout
+{
+    context: ResID_67
+    InputLayout: ResID_135
+}
+
+```
+
+```json
+ID3D11DeviceContext::IASetPrimitiveTopology
+{
+    context: ResID_67
+    Topology: TriangleList
+}
+
+```
+
+```json
+ID3D11DeviceContext::Draw
+{
+    context: ResID_67
+    VertexCount: 90
+    StartVertexLocation: 0
+
+```
+### Draw(6)
+|C0|C1|C2|C3|C4|C5|C6|C7|Z|
+|-|-|-|-|-|-|-|-|-|
+|[ResID_69](#ResID_69)|null|null|null|null|null|null|null|[ResID_151](#ResID_151)|
+
+```json
+ID3D11DeviceContext::PSSetShaderResources
+{
+    context: ResID_67
+    StartSlot: 0
+    NumViews: 1
+    id: ResID_134
+}
+
+```
+
+```json
+ID3D11DeviceContext::Unmap
+{
+    context: ResID_67
+    Resource: ResID_153
+    Subresource: 0
+    MapType: D3D11_MAP_WRITE_DISCARD
+    MapFlags: 0
+    DiffStart: 0
+    DiffEnd: 216
+    MapData: RawBuffer   216:< 0x3f133334 0x3f34e81c 0x3f4ccccd 0x3f7ffff7 ...>
+}
+
+```
+
+```json
+ID3D11DeviceContext::IASetVertexBuffers
+{
+    context: ResID_67
+    StartSlot: 0
+    NumBuffers: 1
+    Strides: 36
+    Offsets: 0
+    id: ResID_153
+}
+
+```
+
+```json
+ID3D11DeviceContext::IASetInputLayout
+{
+    context: ResID_67
+    InputLayout: ResID_135
+}
+
+```
+
+```json
+ID3D11DeviceContext::IASetPrimitiveTopology
+{
+    context: ResID_67
+    Topology: TriangleList
+}
+
+```
+
+```json
+ID3D11DeviceContext::Draw
+{
+    context: ResID_67
+    VertexCount: 6
+    StartVertexLocation: 0
+
+```
+### Draw(96)
+|C0|C1|C2|C3|C4|C5|C6|C7|Z|
+|-|-|-|-|-|-|-|-|-|
+|[ResID_69](#ResID_69)|null|null|null|null|null|null|null|[ResID_151](#ResID_151)|
+
+```json
+ID3D11DeviceContext::Unmap
+{
+    context: ResID_67
+    Resource: ResID_157
+    Subresource: 0
+    MapType: D3D11_MAP_WRITE_DISCARD
+    MapFlags: 0
+    DiffStart: 0
+    DiffEnd: 14904
+    MapData: RawBuffer  14904:< 0x3f233334 0x3f340da8 0x3f000000 0x3f7ffff7 ...>
+}
+
+```
+
+```json
+ID3D11DeviceContext::PSSetShaderResources
+{
+    context: ResID_67
+    StartSlot: 0
+    NumViews: 1
+    id: ResID_138
+}
+
+```
+
+```json
+ID3D11DeviceContext::IASetVertexBuffers
+{
+    context: ResID_67
+    StartSlot: 0
+    NumBuffers: 1
+    Strides: 36
+    Offsets: 0
+    id: ResID_157
+}
+
+```
+
+```json
+ID3D11DeviceContext::IASetInputLayout
+{
+    context: ResID_67
+    InputLayout: ResID_135
+}
+
+```
+
+```json
+ID3D11DeviceContext::IASetPrimitiveTopology
+{
+    context: ResID_67
+    Topology: TriangleList
+}
+
+```
+
+```json
+ID3D11DeviceContext::Draw
+{
+    context: ResID_67
+    VertexCount: 96
+    StartVertexLocation: 0
+
+```
+### Draw(96)
+|C0|C1|C2|C3|C4|C5|C6|C7|Z|
+|-|-|-|-|-|-|-|-|-|
+|[ResID_69](#ResID_69)|null|null|null|null|null|null|null|[ResID_151](#ResID_151)|
+
+```json
+ID3D11DeviceContext::PSSetShaderResources
+{
+    context: ResID_67
+    StartSlot: 0
+    NumViews: 1
+    id: ResID_134
+}
+
+```
+
+```json
+ID3D11DeviceContext::Unmap
+{
+    context: ResID_67
+    Resource: ResID_157
+    Subresource: 0
+    MapType: D3D11_MAP_WRITE_DISCARD
+    MapFlags: 0
+    DiffStart: 0
+    DiffEnd: 14904
+    MapData: RawBuffer  14904:< 0x3f233334 0x3f340da8 0x3f000000 0x3f7ffff7 ...>
+}
+
+```
+
+```json
+ID3D11DeviceContext::PSSetShaderResources
+{
+    context: ResID_67
+    StartSlot: 0
+    NumViews: 1
+    id: ResID_138
+}
+
+```
+
+```json
+ID3D11DeviceContext::IASetVertexBuffers
+{
+    context: ResID_67
+    StartSlot: 0
+    NumBuffers: 1
+    Strides: 36
+    Offsets: 0
+    id: ResID_157
+}
+
+```
+
+```json
+ID3D11DeviceContext::IASetInputLayout
+{
+    context: ResID_67
+    InputLayout: ResID_135
+}
+
+```
+
+```json
+ID3D11DeviceContext::IASetPrimitiveTopology
+{
+    context: ResID_67
+    Topology: TriangleList
+}
+
+```
+
+```json
+ID3D11DeviceContext::Draw
+{
+    context: ResID_67
+    VertexCount: 96
+    StartVertexLocation: 0
+
+```
+### Draw(414)
+|C0|C1|C2|C3|C4|C5|C6|C7|Z|
+|-|-|-|-|-|-|-|-|-|
+|[ResID_69](#ResID_69)|null|null|null|null|null|null|null|[ResID_151](#ResID_151)|
+
+```json
+ID3D11DeviceContext::PSSetShaderResources
+{
+    context: ResID_67
+    StartSlot: 0
+    NumViews: 1
+    id: ResID_134
+}
+
+```
+
+```json
+ID3D11DeviceContext::OMSetDepthStencilState
+{
+    context: ResID_67
+    State: ResID_0
+    StencilRef: 0
+}
+
+```
+
+```json
+ID3D11DeviceContext::RSSetState
+{
+    context: ResID_67
+    id: ResID_68
+}
+
+```
+
+```json
+ID3D11DeviceContext::OMSetBlendState
+{
+    context: ResID_67
+    State: ResID_0
+    BlendFactor[0] = 1.0000
+    BlendFactor[1] = 1.0000
+    BlendFactor[2] = 1.0000
+    BlendFactor[3] = 1.0000
+    SampleMask: 4294967295
+}
+
+```
+
+```json
+ID3D11DeviceContext::PSSetSamplers
+{
+    context: ResID_67
+    StartSlot: 0
+    NumSamplers: 1
+    id: ResID_146
+}
+
+```
+
+```json
+ID3D11DeviceContext::PSSetShaderResources
+{
+    context: ResID_67
+    StartSlot: 0
+    NumViews: 1
+    id: ResID_134
+}
+
+```
+
+```json
+ID3D11DeviceContext::VSSetShader
+{
+    context: ResID_67
+    Shader: ResID_128
+    NumClassInstances: 0
+}
+
+```
+
+```json
+ID3D11DeviceContext::HSSetShader
+{
+    context: ResID_67
+    Shader: ResID_0
+    NumClassInstances: 0
+}
+
+```
+
+```json
+ID3D11DeviceContext::DSSetShader
+{
+    context: ResID_67
+    Shader: ResID_0
+    NumClassInstances: 0
+}
+
+```
+
+```json
+ID3D11DeviceContext::GSSetShader
+{
+    context: ResID_67
+    Shader: ResID_0
+    NumClassInstances: 0
+}
+
+```
+
+```json
+ID3D11DeviceContext::PSSetShader
+{
+    context: ResID_67
+    Shader: ResID_129
+    NumClassInstances: 0
+}
+
+```
+
+```json
+ID3D11DeviceContext::OMSetDepthStencilState
+{
+    context: ResID_67
+    State: ResID_116
+    StencilRef: 0
+}
+
+```
+
+```json
+ID3D11DeviceContext::RSSetState
+{
+    context: ResID_67
+    id: ResID_68
+}
+
+```
+
+```json
+ID3D11DeviceContext::OMSetBlendState
+{
+    context: ResID_67
+    State: ResID_131
+    BlendFactor[0] = 0.0000
+    BlendFactor[1] = 0.0000
+    BlendFactor[2] = 0.0000
+    BlendFactor[3] = 0.0000
+    SampleMask: 4294967295
+}
+
+```
+
+```json
+ID3D11DeviceContext::PSSetSamplers
+{
+    context: ResID_67
+    StartSlot: 0
+    NumSamplers: 1
+    id: ResID_132
+}
+
+```
+
+```json
+ID3D11DeviceContext::OMSetDepthStencilState
+{
+    context: ResID_67
+    State: ResID_0
+    StencilRef: 0
+}
+
+```
+
+```json
+ID3D11DeviceContext::RSSetState
+{
+    context: ResID_67
+    id: ResID_68
+}
+
+```
+
+```json
+ID3D11DeviceContext::OMSetBlendState
+{
+    context: ResID_67
+    State: ResID_0
+    BlendFactor[0] = 1.0000
+    BlendFactor[1] = 1.0000
+    BlendFactor[2] = 1.0000
+    BlendFactor[3] = 1.0000
+    SampleMask: 4294967295
+}
+
+```
+
+```json
+ID3D11DeviceContext::PSSetSamplers
+{
+    context: ResID_67
+    StartSlot: 0
+    NumSamplers: 1
+    id: ResID_146
+}
+
+```
+
+```json
+ID3D11DeviceContext::VSSetShader
+{
+    context: ResID_67
+    Shader: ResID_128
+    NumClassInstances: 0
+}
+
+```
+
+```json
+ID3D11DeviceContext::HSSetShader
+{
+    context: ResID_67
+    Shader: ResID_0
+    NumClassInstances: 0
+}
+
+```
+
+```json
+ID3D11DeviceContext::DSSetShader
+{
+    context: ResID_67
+    Shader: ResID_0
+    NumClassInstances: 0
+}
+
+```
+
+```json
+ID3D11DeviceContext::GSSetShader
+{
+    context: ResID_67
+    Shader: ResID_0
+    NumClassInstances: 0
+}
+
+```
+
+```json
+ID3D11DeviceContext::PSSetShader
+{
+    context: ResID_67
+    Shader: ResID_129
+    NumClassInstances: 0
+}
+
+```
+
+```json
+ID3D11DeviceContext::OMSetDepthStencilState
+{
+    context: ResID_67
+    State: ResID_116
+    StencilRef: 0
+}
+
+```
+
+```json
+ID3D11DeviceContext::RSSetState
+{
+    context: ResID_67
+    id: ResID_68
+}
+
+```
+
+```json
+ID3D11DeviceContext::OMSetBlendState
+{
+    context: ResID_67
+    State: ResID_131
+    BlendFactor[0] = 0.0000
+    BlendFactor[1] = 0.0000
+    BlendFactor[2] = 0.0000
+    BlendFactor[3] = 0.0000
+    SampleMask: 4294967295
+}
+
+```
+
+```json
+ID3D11DeviceContext::PSSetSamplers
+{
+    context: ResID_67
+    StartSlot: 0
+    NumSamplers: 1
+    id: ResID_132
+}
+
+```
+
+```json
+ID3D11DeviceContext::Unmap
+{
+    context: ResID_67
+    Resource: ResID_157
+    Subresource: 0
+    MapType: D3D11_MAP_WRITE_DISCARD
+    MapFlags: 0
+    DiffStart: 0
+    DiffEnd: 14904
+    MapData: RawBuffer  14904:< 0xbf7eb852 0x3f800000 0x3f000000 0x3f800000 ...>
+}
+
+```
+
+```json
+ID3D11DeviceContext::PSSetShaderResources
+{
+    context: ResID_67
+    StartSlot: 0
+    NumViews: 1
+    id: ResID_138
+}
+
+```
+
+```json
+ID3D11DeviceContext::IASetVertexBuffers
+{
+    context: ResID_67
+    StartSlot: 0
+    NumBuffers: 1
+    Strides: 36
+    Offsets: 0
+    id: ResID_157
+}
+
+```
+
+```json
+ID3D11DeviceContext::IASetInputLayout
+{
+    context: ResID_67
+    InputLayout: ResID_135
+}
+
+```
+
+```json
+ID3D11DeviceContext::IASetPrimitiveTopology
+{
+    context: ResID_67
+    Topology: TriangleList
+}
+
+```
+
+```json
+ID3D11DeviceContext::Draw
+{
+    context: ResID_67
+    VertexCount: 414
+    StartVertexLocation: 0
+
+```
+### Draw(252)
+|C0|C1|C2|C3|C4|C5|C6|C7|Z|
+|-|-|-|-|-|-|-|-|-|
+|[ResID_69](#ResID_69)|null|null|null|null|null|null|null|[ResID_151](#ResID_151)|
+
+```json
+ID3D11DeviceContext::PSSetShaderResources
+{
+    context: ResID_67
+    StartSlot: 0
+    NumViews: 1
+    id: ResID_134
+}
+
+```
+
+```json
+ID3D11DeviceContext::Unmap
+{
+    context: ResID_67
+    Resource: ResID_157
+    Subresource: 0
+    MapType: D3D11_MAP_WRITE_DISCARD
+    MapFlags: 0
+    DiffStart: 0
+    DiffEnd: 14904
+    MapData: RawBuffer  14904:< 0xbf7eb852 0x3f733334 0x3f000000 0x3f800000 ...>
+}
+
+```
+
+```json
+ID3D11DeviceContext::PSSetShaderResources
+{
+    context: ResID_67
+    StartSlot: 0
+    NumViews: 1
+    id: ResID_138
+}
+
+```
+
+```json
+ID3D11DeviceContext::IASetVertexBuffers
+{
+    context: ResID_67
+    StartSlot: 0
+    NumBuffers: 1
+    Strides: 36
+    Offsets: 0
+    id: ResID_157
+}
+
+```
+
+```json
+ID3D11DeviceContext::IASetInputLayout
+{
+    context: ResID_67
+    InputLayout: ResID_135
+}
+
+```
+
+```json
+ID3D11DeviceContext::IASetPrimitiveTopology
+{
+    context: ResID_67
+    Topology: TriangleList
+}
+
+```
+
+```json
+ID3D11DeviceContext::Draw
+{
+    context: ResID_67
+    VertexCount: 252
+    StartVertexLocation: 0
+
+```
+### Draw(102)
+|C0|C1|C2|C3|C4|C5|C6|C7|Z|
+|-|-|-|-|-|-|-|-|-|
+|[ResID_69](#ResID_69)|null|null|null|null|null|null|null|[ResID_151](#ResID_151)|
+
+```json
+ID3D11DeviceContext::PSSetShaderResources
+{
+    context: ResID_67
+    StartSlot: 0
+    NumViews: 1
+    id: ResID_134
+}
+
+```
+
+```json
+ID3D11DeviceContext::Unmap
+{
+    context: ResID_67
+    Resource: ResID_157
+    Subresource: 0
+    MapType: D3D11_MAP_WRITE_DISCARD
+    MapFlags: 0
+    DiffStart: 0
+    DiffEnd: 14904
+    MapData: RawBuffer  14904:< 0xbf7eb852 0x3f666666 0x3f000000 0x3f800000 ...>
+}
+
+```
+
+```json
+ID3D11DeviceContext::PSSetShaderResources
+{
+    context: ResID_67
+    StartSlot: 0
+    NumViews: 1
+    id: ResID_138
+}
+
+```
+
+```json
+ID3D11DeviceContext::IASetVertexBuffers
+{
+    context: ResID_67
+    StartSlot: 0
+    NumBuffers: 1
+    Strides: 36
+    Offsets: 0
+    id: ResID_157
+}
+
+```
+
+```json
+ID3D11DeviceContext::IASetInputLayout
+{
+    context: ResID_67
+    InputLayout: ResID_135
+}
+
+```
+
+```json
+ID3D11DeviceContext::IASetPrimitiveTopology
+{
+    context: ResID_67
+    Topology: TriangleList
+}
+
+```
+
+```json
+ID3D11DeviceContext::Draw
+{
+    context: ResID_67
+    VertexCount: 102
+    StartVertexLocation: 0
+
+```
+### API Calls
+
+```json
+ID3D11DeviceContext::PSSetShaderResources
+{
+    context: ResID_67
+    StartSlot: 0
+    NumViews: 1
+    id: ResID_134
+}
+
+```
+
+```json
+ID3D11DeviceContext::OMSetDepthStencilState
+{
+    context: ResID_67
+    State: ResID_0
+    StencilRef: 0
+}
+
+```
+
+```json
+ID3D11DeviceContext::RSSetState
+{
+    context: ResID_67
+    id: ResID_68
+}
+
+```
+
+```json
+ID3D11DeviceContext::OMSetBlendState
+{
+    context: ResID_67
+    State: ResID_0
+    BlendFactor[0] = 1.0000
+    BlendFactor[1] = 1.0000
+    BlendFactor[2] = 1.0000
+    BlendFactor[3] = 1.0000
+    SampleMask: 4294967295
+}
+
+```
+
+```json
+ID3D11DeviceContext::PSSetSamplers
+{
+    context: ResID_67
+    StartSlot: 0
+    NumSamplers: 1
+    id: ResID_146
+}
+
+```
+## Present()
+
+```json
+IDXGISwapChain::Present
+{
+    context: ResID_67
+    SyncInterval: 0
+    Flags: 0
+}
+
+```
+# Textures
+|name|type|format|flags|dim[array]|mips|bytes|MSAA|ID|
+|:---|:---|:-----|:----|:---------|:---|:----|:---|:-|
+|DDSTextureLoader|Texture2D|B8G8R8A8_UNORM|SRV|950x20x1[1]|1|76000|1.0|<a name=ResID_137></a>ResID_137|
+|DDSTextureLoader|Texture2D|B8G8R8X8_UNORM_SRGB|SRV|256x256x1[1]|1|262144|1.0|<a name=ResID_144></a>ResID_144|
+|DXUT|Texture2D|D24_UNORM_S8_UINT|DSV|800x600x1[1]|1|1920000|1.0|<a name=ResID_151></a>ResID_151|
+|DXUT GUI Texture|Texture2D|R8G8B8A8_UNORM|SRV|256x256x1[1]|1|262144|1.0|<a name=ResID_133></a>ResID_133|
+|Serialised Swap Chain Buffer|Texture2D|R8G8B8A8_UNORM_SRGB|RTV, SwapBuffer|800x600x1[1]|1|1920000|1.0|<a name=ResID_69></a>ResID_69|
+# Buffers
+|name|flags|bytes|ID|
+|:---|:----|:-----|--|
+|CDXUTSDKMesh|VB|141824|<a name=ResID_142></a>ResID_142|
+|CDXUTSDKMesh|IB|82092|<a name=ResID_143></a>ResID_143|
+|CB_VS_PER_OBJECT|0|128|<a name=ResID_147></a>ResID_147|
+|CB_PS_PER_OBJECT|0|16|<a name=ResID_148></a>ResID_148|
+|CB_PS_PER_FRAME|0|16|<a name=ResID_149></a>ResID_149|
+|CDXUTDialogResourceManager|VB|216|<a name=ResID_153></a>ResID_153|
+|DXUT Text11|VB|14904|<a name=ResID_157></a>ResID_157|
+
+<!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style><script src="markdeep.min.js"></script><script src="https://casual-effects.com/markdeep/latest/markdeep.min.js?"></script><script>window.alreadyProcessedMarkdeep||(document.body.style.visibility="visible")</script>
