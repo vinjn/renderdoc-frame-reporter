@@ -1,7 +1,4 @@
-# RenderDoc Python scripts, powered by IronPython 2.7.4.1000
-# The 'pyrenderdoc' object is the Core class instance.
-# The 'renderdoc' module is available, as the matching namespace in C#
-
+# https://github.com/vinjn/renderdoc-frame-reporter
 # \renderdoc\renderdocui\Code\Core.cs
 
 dump_draws = True
