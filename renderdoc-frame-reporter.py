@@ -30,6 +30,8 @@ def anchor_ResID(id):
 	return "<a name=ResID_%s></a>ResID_%s" % (id, id)
 
 def dump_draw(draw, level):
+	if draw.flags == renderdoc.DrawcallFlags.SetMarker:
+		pass
 	if draw.flags & renderdoc.DrawcallFlags.APICalls:
 		pass
 	if draw.flags & renderdoc.DrawcallFlags.PassBoundary:
