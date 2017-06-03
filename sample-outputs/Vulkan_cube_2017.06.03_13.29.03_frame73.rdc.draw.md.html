@@ -1,0 +1,250 @@
+* C:\Users\ZJ_PC\AppData\Local\Temp\RenderDoc\cube_2017.06.03_13.29.03_frame73.rdc
+* API: Vulkan
+# Draws
+## Colour Pass #1 (1 Targets)
+### => vkQueueSubmit(1)[0]: vkBeginCommandBuffer(ResID_169)
+
+```json
+vkWaitForFences
+{
+    id: ResID_6
+    wait: 1
+    tmout: 18446744073709551615
+    count: 1
+    Debug Messages
+    {
+    HasCallstack: False
+    NumMessages: 0
+    }
+    pFences[]: ResID_113
+}
+
+```
+
+```json
+vkResetFences
+{
+    id: ResID_6
+    count: 1
+    Debug Messages
+    {
+    HasCallstack: False
+    NumMessages: 0
+    }
+    pFences[]: ResID_113
+}
+
+```
+
+```json
+vkWaitForFences
+{
+    id: ResID_6
+    wait: 1
+    tmout: 18446744073709551615
+    count: 1
+    Debug Messages
+    {
+    HasCallstack: False
+    NumMessages: 0
+    }
+    pFences[]: ResID_134
+}
+
+```
+
+```json
+vkUnmapMemory
+{
+    devId: ResID_6
+    id: ResID_147
+    memOffset: 0
+    memSize: 1280
+    data: RawBuffer  1280:< 0x3f67858c 0x3f93699b 0xbf4bf113 0xbf4b88c4 ...>
+}
+
+```
+
+```json
+vkResetFences
+{
+    id: ResID_6
+    count: 1
+    Debug Messages
+    {
+    HasCallstack: False
+    NumMessages: 0
+    }
+    pFences[]: ResID_134
+}
+
+```
+
+```json
+vkQueueSubmit
+{
+    queueId: ResID_112
+    fenceId: ResID_134
+    numCmds: 1
+    id: ResID_169
+    numWaitSems: 1
+
+```
+
+```json
+=> vkQueueSubmit(1)[0]: vkBeginCommandBuffer(ResID_169)
+```
+### vkCmdBeginRenderPass(C=Clear, D=Clear)
+
+```json
+vkCmdBeginRenderPass
+{
+    cmdid: ResID_159
+    beginInfo = VkRenderPassBeginInfo
+    {
+    sType: VK_STRUCTURE_TYPE_RENDER_PASS_BEGIN_INFO
+    renderPass: ResID_154
+    framebuffer: ResID_166
+    renderArea = VkRect2D
+    {
+    offset: VkOffset<0,0>
+    extent: VkExtent<500,500>
+    }
+    pClearValues[0] = VkClearValue[ col:<0.200000,0.200000,0.200000,0.200000> / d:0.200000 s:1045220557 ]
+    pClearValues[1] = VkClearValue[ col:<1.000000,0.000000,0.000000,0.000000> / d:1.000000 s:0 ]
+    }
+    cont: VK_SUBPASS_CONTENTS_INLINE
+    Debug Messages
+    {
+    HasCallstack: False
+    NumMessages: 0
+    }
+
+```
+### vkCmdDraw(36,1)
+|C0|C1|C2|C3|C4|C5|C6|C7|Z|
+|-|-|-|-|-|-|-|-|-|
+|[ResID_124](#ResID_124)|null|null|null|null|null|null|null|[ResID_139](#ResID_139)|
+
+```json
+vkCmdBindPipeline
+{
+    cmdid: ResID_159
+    bind: VK_PIPELINE_BIND_POINT_GRAPHICS
+    pipeid: ResID_158
+    Debug Messages
+    {
+    HasCallstack: False
+    NumMessages: 0
+    }
+}
+
+```
+
+```json
+vkCmdBindDescriptorSet
+{
+    cmdid: ResID_159
+    layoutid: ResID_153
+    bind: VK_PIPELINE_BIND_POINT_GRAPHICS
+    first: 0
+    numSets: 1
+    Debug Messages
+    {
+    HasCallstack: False
+    NumMessages: 0
+    }
+    DescriptorSet: ResID_163
+    offsCount: 0
+}
+
+```
+
+```json
+vkCmdSetViewport
+{
+    cmdid: ResID_159
+    first: 0
+    count: 1
+    views: VkViewport<0.000000,0.000000, 500.000000x500.000000, 0.000000-1.000000>
+    Debug Messages
+    {
+    HasCallstack: False
+    NumMessages: 0
+    }
+}
+
+```
+
+```json
+vkCmdSetScissor
+{
+    cmdid: ResID_159
+    first: 0
+    count: 1
+    scissors = VkRect2D
+    {
+    offset: VkOffset<0,0>
+    extent: VkExtent<500,500>
+    }
+    Debug Messages
+    {
+    HasCallstack: False
+    NumMessages: 0
+    }
+}
+
+```
+
+```json
+vkCmdDraw
+{
+    cmdid: ResID_159
+    vtxCount: 36
+    instCount: 1
+    firstVtx: 0
+    firstInst: 0
+    Debug Messages
+    {
+    HasCallstack: False
+    NumMessages: 0
+    }
+
+```
+### vkCmdEndRenderPass(C=Store, D=Don't Care)
+
+```json
+vkCmdEndRenderPass
+{
+    cmdid: ResID_159
+    Debug Messages
+    {
+    HasCallstack: False
+    NumMessages: 0
+    }
+
+```
+### => vkQueueSubmit(1)[0]: vkEndCommandBuffer(ResID_169)
+
+```json
+=> vkQueueSubmit(1)[0]: vkEndCommandBuffer(ResID_169)
+```
+## vkQueuePresentKHR()
+
+```json
+vkQueuePresentKHR()
+```
+# Textures
+|name|type|format|flags|dim[array]|mips|bytes|MSAA|ID|
+|:---|:---|:-----|:----|:---------|:---|:----|:---|:-|
+|Presentable Image 0|Texture2D|B8G8R8A8_UNORM|SRV, RTV, SwapBuffer|500x500x1[1]|1|1000000|1.0|<a name=ResID_124></a>ResID_124|
+|Presentable Image 1|Texture2D|B8G8R8A8_UNORM|SRV, RTV, SwapBuffer|500x500x1[1]|1|1000000|1.0|<a name=ResID_125></a>ResID_125|
+|Presentable Image 2|Texture2D|B8G8R8A8_UNORM|SRV, RTV, SwapBuffer|500x500x1[1]|1|1000000|1.0|<a name=ResID_126></a>ResID_126|
+|Texture2D 142|Texture2D|R8G8B8A8_UNORM|SRV|256x256x1[1]|1|262144|1.0|<a name=ResID_142></a>ResID_142|
+|Texture2D DSV 139|Texture2D|D16_UNORM|DSV|500x500x1[1]|1|500000|1.0|<a name=ResID_139></a>ResID_139|
+# Buffers
+|name|flags|bytes|ID|
+|:---|:----|:-----|--|
+|Buffer 146|CB|1216|<a name=ResID_146></a>ResID_146|
+
+<!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style><script src="markdeep.min.js"></script><script src="https://casual-effects.com/markdeep/latest/markdeep.min.js?"></script><script>window.alreadyProcessedMarkdeep||(document.body.style.visibility="visible")</script>
