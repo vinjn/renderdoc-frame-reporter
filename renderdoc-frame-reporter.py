@@ -37,7 +37,7 @@ def dump_draw(draw, level):
 	if draw.flags & renderdoc.DrawcallFlags.PassBoundary:
 		pass
 
-	file.write("%s %s\n" % ("#"*level, draw.name))
+	file.write("%s %s\n" % ("#"*level, draw.name.replace('#', '__')))
 	# file.write("`%s`\n" % draw.flags)
 
 	# draw
