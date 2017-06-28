@@ -62,7 +62,7 @@ def dump_draw(draw, level):
 		file.write("|-|-|\n")
 		file.write("|%s|%s|\n" % (linkable_ResID(draw.copySource), linkable_ResID(draw.copyDestination)))
 
-	if dump_draw_events:
+	if dump_draw_events and draw.events:
 		for evt in draw.events:
 			desc = evt.eventDesc
 			file.write("\n```json\n%s\n```\n" % (desc))
