@@ -1,5 +1,6 @@
 # https://github.com/vinjn/renderdoc-frame-reporter
-# \renderdoc\renderdocui\Code\Core.cs
+# renderdoc\renderdocui\Code\Core.cs
+# renderdoc\renderdocui\Interop\Enums.cs
 
 dump_draws = True
 dump_draw_events = True
@@ -9,7 +10,7 @@ dump_textures = True
 dump_buffers = True
 
 rdc = pyrenderdoc
-output_name = rdc.LogFileName + ".draw.md.html"
+output_name = rdc.LogFileName + ".report.md.html"
 file = open(output_name,"w") 
 
 file.write("* %s\n" % rdc.LogFileName)
@@ -72,9 +73,9 @@ def dump_draw(draw, level):
 			dump_draw(child, level+1)
 
 if dump_draws:
-	file.write("# Draws\n")
+	# file.write("# Draws\n")
 	for draw in rdc.CurDrawcalls:
-		dump_draw(draw, 2)
+		dump_draw(draw, 1)
 
 if dump_textures:
 	file.write("# Textures\n")
